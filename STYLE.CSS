@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?família=Justo&família=Sarala&exibição=troca');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #474747 16.62%, #6e5b5b 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 78px;
+    border: none;
+    border-radius: 50px;
+}
+
+.cabecalho-menu-item {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item-botao-1 {
+    font-family: 'Sarala', sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ecd6c4;
+    width: 140px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #8e5d52;
+}
+
+.cabecalho-menu-item-botao-1:hover {
+    background-color: rgba(236,214,196,0.53); 
+}
+
+.cabecalho-menu-item-botao-2:hover {
+    background-color: rgba(236,214,196,0.53); 
+}
+
+.cabecalho-menu-item-botao-3:hover {
+    background-color: rgba(236,214,196,0.53); 
+}
+
+.cabecalho-menu-item-botao-4:hover {
+    background-color: rgba(236,214,196,0.53); 
+}
+
+.cabecalho-menu-item-botao-2 {
+    font-family: 'Sarala', sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ecd6c4;
+    width: 140px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #8e5d52;
+}
+
+.cabecalho-menu-item-botao-3 {
+    font-family: 'Sarala', sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ecd6c4;
+    width: 140px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #8e5d52;
+}
+
+.cabecalho-menu-item-botao-4 {
+    font-family: 'Sarala', sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ecd6c4;
+    width: 140px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #8e5d52;
+}
+
+.logado:hover {
+    background-color: rgba(236,214,196,0.53); 
+}
+
+.logado {
+    font-family: 'Sarala', sans-serif;
+    color: bisque;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: #ecd6c4;
+    width: 140px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    color: #8e5d52;
+}
+
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;   
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family:'Justo', cursivo;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ecd6c4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(236,214,196,0.53);
+}
+
+.conteudo-principal-imagem {
+    height: 450px;
+    width: 250;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Justo', cursivo;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffd4d4;
+    margin-bottom: 16px;
+    border-radius: 10px;
+}
+
+.footer.footer {
+    height: 100%;
+    background: teal;
+    position: relative;
+}
+
+.Sobre-mim a{
+    text-decoration: none;
+}
+
+.Setup-Gamer {
+    margin-left: 45px;
+}
+
+.footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    pad: 3rem 0.9rem;
+}
+
+.footer h2{
+    color: rgb(255, 255, 0);
+}
+
+.footer p{
+    font-size: 15px;
+    color: #ffd4d4;
+}
+
+.footer .Sobre-mim{
+    margin-left: 30px;
+}
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+}
+
+.rodape-imagem {
+    height: 48px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 25px;
+}
+
+.conteudo-principal-video {
+    border: 10px solid rgb(200, 247, 255);
+    border-radius: 20px;
+    background-color: #8e5d52;
+    width: 400px;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0, 0,8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 18px;
+}
